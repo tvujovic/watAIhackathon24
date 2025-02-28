@@ -1,3 +1,22 @@
+### Overview
+Quick summary, nothing too in depth
+
+### Model
+Describe the model (inputs and outputs)
+Describe the technologies used
+
+### Dataset
+Describe the dataset at a high level, what form is the data in, etc. how much there is, all of that
+
+### Training Parameters
+Talk about the parameters we used here, add short descriptions and links for more info
+
+### Optional: Additional Parameters
+Talk about the other parameters here instead if you want to split it up
+
+### Hackathon
+Hackathon background information goes here
+
 ### Wildfire Hackathon Project
 
 *Event Hosted by the University of Waterloo's Data & Artificial Intellegence Institute (Waterloo.ai) in coordination with Wat.ai and UWDSC (University of Waterloo Data Science Club) and in partnership with MAG Aerospace*
