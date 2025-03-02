@@ -8,6 +8,11 @@ Describe the technologies used
 ### Dataset
 Describe the dataset at a high level, what form is the data in, etc. how much there is, all of that
 
+Fire Geometry - Includes ignition information
+Fire Weather Indices - Including fire weather index, and integrated indicies such inclduing duff moisture code, Drought code?
+Topographical factors - Elevation and slope
+Weather factors - None weather factors like max temperature, wind, etc.
+
 ### Training Parameters
 Talk about the parameters we used here, add short descriptions and links for more info
 
