@@ -7,8 +7,15 @@ Event details, as well as a complete list dataset can be found on the [hackathon
 ### Model
 Though there was significant iterations during the hackathon, the our best model involved a CNN x LSTM approach to effectively capture spatial and temporal patterns respectively.
 
--Describe the model (inputs and outputs)
--Describe the technologies used
+**Inputs**:
+- Multi-channel GeoTiff images containing daily environmental data
+- Each input corresponds to a fire polygon for a specific day, normalized and padded to a consistent shape of (528, 720).
+
+**Outputs**:
+- Predicted fire spread for the subsequent days (ei. after day 10 of fire 2214)
+- 2D grid where each cell indicates fire presence/absence or intensity.
+
+We used PyTorch for building and training the CNN-LSTM architecture, with Torchvision applied for data augmentation and preprocessing. Rasterio handled GeoTiff files to extract geospatial data effectively, with NumPy and Pandas to facilitate numerical and tabular data processing. Geopandas was used for working with geospatial vector data, and TQDM tracked progress during training and evaluation. Lastly, model's training was optimized to accelerate performance on GPU using CUDA.
 
 ### Dataset
 Describe the dataset at a high level, what form is the data in, etc. how much there is, all of that.
